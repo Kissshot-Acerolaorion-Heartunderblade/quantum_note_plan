@@ -1,15 +1,25 @@
-\documentclass{ctexart}
-
-\usepackage{}
+\documentclass[UTF8]{ctexart}  
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{float}
+\usepackage{ctex}
+\usepackage{amsmath}
+\usepackage{lmodern}
+\usepackage{xfrac}%\sfrac可以
+\usepackage{fancyhdr}
+\newcommand{\rect}[1]{rect( \f{x-x_{0}}{#1})}%定义rect函数(参数为a)
+\newcommand{\rectt}[2]{rect( \f{x}{#1},\f{y}{#2})}%定义二维rect函数
+\newcommand{\sinc}[1]{sinc(\f{x}{#1})}%定义sinc函数
+\newcommand{\sincc}[2]{sinc(\f{x}{#1},\f{y}{#2})}%定义sinc函数
+\newcommand{\f}[2]{\frac{#1}{#2}}%定义分数函数 更方便了
+\newcommand{\sfr}[2]{\sfrac{#1}{#2}}
+\newcommand{\sumsum}[3]{\sum_{#1=#2}^#3}
 %这里是导言区
+
+
+
+
 \begin{document}
-
-
-
-
-
-
-
 \end{document}
 %%%我
 
